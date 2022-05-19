@@ -21,8 +21,8 @@ https://epw80.github.io/U-Develop-It/
 
 ## Mock-up
 
-<!-- ![Book-Search: Erik Williams](/assets/images/projectPhoto.jpg)
-![Book-Search: Erik Williams](/assets/images/projectPhoto2.jpg) -->
+![U-Develop-It: Erik Williams](/images/udevelopit.png)
+![U-Develop-It: Erik Williams](/images/udevelopit2.png)
 
 ## Challenges 
 
