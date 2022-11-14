@@ -12,13 +12,6 @@ u-develop-it is an example of how to create an SQL database and perform CRUD via
 - [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://www.javascript.com/)
 
-## Website
-https://github.com/EPW80/U-Develop-It.git
-
-
-## Deployment
-https://epw80.github.io/U-Develop-It/
-
 ## Mock-up
 
 ![U-Develop-It: Erik Williams](/images/udevelopit.png)
