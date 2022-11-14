@@ -3,15 +3,6 @@
 ## Purpose
 u-develop-it is an example of how to create an SQL database and perform CRUD via Express.js routes.
 
-## Built With
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Node.js](https://nodejs.org/en/)
-- [Express package](https://www.npmjs.com/package/express)
-- [GitHub GUI](https://desktop.github.com/)
-- [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-- [CSS](https://www.w3schools.com/css/)
-- [JavaScript](https://www.javascript.com/)
-
 ## Mock-up
 
 ![U-Develop-It: Erik Williams](/images/udevelopit.png)
