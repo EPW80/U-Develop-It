@@ -24,15 +24,6 @@ https://epw80.github.io/U-Develop-It/
 ![U-Develop-It: Erik Williams](/images/udevelopit.png)
 ![U-Develop-It: Erik Williams](/images/udevelopit2.png)
 
-## Challenges 
-
-## Test
-
-## Questions
-for more information or if you have a question: email [erikpw009@gmail.com](erikpw009@gmail.com).
-
-
 ## Contribution:
 Erik Williams
 
-## License
