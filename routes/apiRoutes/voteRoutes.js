@@ -1,10 +1,10 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const db = require('../../db/connection');
-const inputCheck = require('../../utils/inputCheck');
+const db = require("../../db/connection");
+const inputCheck = require("../../utils/inputCheck");
 
 // Get the total votes for all the candidates
-router.get('/votes', (req, res) => {
+router.get("/votes", (req, res) => {
   const sql = `SELECT candidates.*, parties.name AS party_name, 
                 COUNT(candidate_id) 
                 AS count FROM votes 
@@ -19,16 +19,16 @@ router.get('/votes', (req, res) => {
       return;
     }
     res.json({
-      message: 'success',
-      data: rows
+      message: "success",
+      data: rows,
     });
   });
 });
 
 // Create a vote record
-router.post('/vote', ({ body }, res) => {
+router.post("/vote", ({ body }, res) => {
   // Data validation
-  const errors = inputCheck(body, 'voter_id', 'candidate_id');
+  const errors = inputCheck(body, "voter_id", "candidate_id");
   if (errors) {
     res.status(400).json({ error: errors });
     return;
@@ -43,9 +43,9 @@ router.post('/vote', ({ body }, res) => {
       return;
     }
     res.json({
-      message: 'success',
+      message: "success",
       data: body,
-      changes: result.affectedRows
+      changes: result.affectedRows,
     });
   });
 });
